@@ -1,0 +1,76 @@
+
+
+.Summer{
+    background-image: url('https://bridge73.qodeinteractive.com/wp-content/uploads/2016/07/travel-5.jpg?id=26');
+    min-height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 90px;
+}
+
+.Summer .heading{
+    color: white;
+    padding-bottom: 70px;
+}
+
+.Summer .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.Summer .inner .box{
+    width: 22%;
+    text-align: center;
+}
+
+.Summer .inner .box h2{
+    font-size: 140px;
+    color: white;
+}
+
+.Summer .inner .box h4{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+
+
+.Summer .inner .box p{
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+
+.line{
+    text-align: center;
+    padding: 45px 0;
+    background-color: rgb(232, 232, 226);
+    font-size: 20px;
+    color: #777;
+}
+
+@media(max-width: 940px){
+
+    .Summer .inner .box{
+        width: 47%;
+    }
+}
+
+
+@media(max-width: 740px){
+
+    .Summer .inner .box{
+        width: 97%;
+    }
+
+    .line{
+        font-size: 15px;
+    }
+}

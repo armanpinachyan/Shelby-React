@@ -1,0 +1,62 @@
+
+
+.backgroundabout{
+    background: url('https://shelby.am/wp-content/uploads/2016/07/travel-29.jpg') no-repeat, center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+
+
+
+.About .inner{
+    margin-top: 270px;
+    
+}
+
+.About .lines{
+    text-align: center;
+    padding: 50px 480px;
+    font-size: 15px;
+    color: #777;
+    line-height: 30px;
+    background-color: rgb(232, 232, 226);
+    text-transform: capitalize;
+}
+
+.About .line{
+    background: none;
+    display: none;
+}
+
+.About .Summer .heading{
+    display: none;
+}
+
+.About .Summer{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 1200px){
+    .About .lines{
+        font-size: 12px;
+        padding: 20px 300px;
+    }
+}
+
+
+@media(max-width: 740px){
+    .About .lines{
+        font-size: 12px;
+        padding: 20px 100px;
+    }
+}

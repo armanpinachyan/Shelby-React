@@ -1,0 +1,102 @@
+
+.Sale{
+ position: relative;
+ top: 50px;
+} 
+
+.Sale .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Sale .inner .box{
+    width: 50%;
+    background-color: rgb(231, 232, 233);
+    text-align: center;
+    padding: 60px 120px;
+    height: 500px;
+}
+
+.Sale .inner .box1{
+    width: 50%;
+    background-color: rgb(231, 232, 233);
+    text-align: center;
+    padding: 60px 120px;
+    height: 500px;
+    position: relative;
+    top: 30px;
+}
+
+.Sale .inner .box h2{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.Sale .inner .box p{
+    font-size: 11px;
+    line-height: 30px;
+    color: #999;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.Sale .inner .box1 h2{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.Sale .inner .box1 p{
+    font-size: 11px;
+    line-height: 30px;
+    color: #999;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+
+
+
+.Sale .inner .image{
+    width: 50%;
+    height: 500px;
+}
+
+.Sale .inner .image1{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    top: 30px;
+}
+
+
+.Sale .inner .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Sale .inner .image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media(max-width: 740px){
+
+    .Sale .inner .box{
+        width: 97%;
+    }
+
+    .Sale .inner .box1{
+        width: 97%;
+    }
+
+    .Sale .inner .image{
+        width: 97%;
+    }
+    .Sale .inner .image1{
+        width: 97%;
+    }
+}

@@ -1,0 +1,103 @@
+
+
+
+footer .inner{
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 50px;
+    flex-wrap: wrap;
+}
+
+footer .inner .box{
+    width: 23%;
+    color: white;
+
+}
+
+footer .inner .box1{
+    width: 23%;
+    color: white;
+}
+
+footer .inner .box1 img{
+    width: 90px;
+    height: 160px;
+    padding-bottom: 35px;
+}
+
+footer .inner .box1 p{
+    padding-bottom: 30px;
+    font-size: 15px;
+    color: #999;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+footer .inner .box1 .email{
+    padding: 10px 0;
+}
+
+footer .inner .box1  i{
+    margin-right: 10px;
+}
+
+footer .inner .box1  span{
+    font-weight: bold;
+}
+
+footer .inner .box h4{
+    font-size: 20px;
+    padding-bottom: 35px;
+    text-transform: capitalize;
+}
+
+footer .inner .box span{
+    display: block;
+    margin: 18px 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer .inner .box samp{
+   display: block;
+   cursor: pointer;
+   text-transform: capitalize;
+   font-size: 16px;
+}
+
+footer .inner .box span:hover{
+    color: #a99e03;
+}
+
+footer .inner .box samp:hover{
+    color: #a99e03;
+}
+
+.footertext{
+    background-color: #444;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    font-size: 15px;
+}
+
+.footertext a{
+    color: #a99e03;
+    cursor: pointer;
+}
+
+
+@media(max-width: 740px){
+    
+    footer .inner .box{
+        width: 98%;
+    }
+
+    
+    footer .inner .box1{
+        width: 98%;
+    }
+
+}

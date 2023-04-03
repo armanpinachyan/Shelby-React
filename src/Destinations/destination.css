@@ -1,0 +1,49 @@
+
+
+.destination{
+    padding: 100px 100px;
+}
+
+#menu-bar{
+    display: none;
+}
+
+.destination .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 23px;
+}
+
+.destination .inner .box{
+    width: 30%;
+    text-align: center;
+}
+
+.destination .inner .box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.destination .inner .box  h4{
+    margin: 10px 0;
+}
+
+.destination .inner .box p{
+    color: #888;
+    line-height: 25px;
+    font-size: 11px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    text-transform: capitalize;
+}
+
+
+@media(max-width: 940px){
+
+    .destination .inner .box{
+        width: 95%;
+    }
+}
